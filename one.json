@@ -20,5 +20,23 @@
     "course":"SSC:",
     "college":"margadarsi",
     "data":["2012-2013","93%","secondary Education"]
-  }]
+  }
+],
+"skills":[{
+  "name":"languages known",
+  "info":["c","python","Javascript"]
+},
+{
+  "name":"operating system",
+  "info":["Linux","Windows","fedora","Unix"]
+},
+{
+  "name":"Libraries",
+  "info":["jquery","Bootstrap"]
+},
+{
+  "name":"Data Bases",
+  "info":["MySQl","pl/sql","mysqlite","oracle"]
+}
+]
 }

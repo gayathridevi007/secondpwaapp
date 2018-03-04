@@ -15,6 +15,7 @@ getfile("one.json",function(text){
   console.log(data);
   basicinfo(data.basics);
   education(data.education);
+  skills(data.skills);
 });
 var main=document.querySelector(".flex-parent");
 function basicinfo(basic){
@@ -69,3 +70,13 @@ h1.appendChild(document.createElement("HR"));
     }
  }
  console.log(right);
+ function skills(food){
+   var table=document.createElement("table");
+   var row="";
+      for(var k=0;k<food.length;k++){
+     row+="<tr><td><strong>"+food[k].name+"</strong></td><td>"+food[k].info+"</td></tr>";
+
+   }
+   table.innerHTML=row;
+   right.appendChild(table);
+ }

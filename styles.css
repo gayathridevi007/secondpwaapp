@@ -6,7 +6,17 @@
   border:5px solid #aaa;
   box-shadow: 3px 3px 3px #000;
 }
-
+table{
+  border:3px solid #FF334F;
+  width:100%;
+  font-size: 30px;
+}
+table tr:nth-child(odd){
+    background: #dad;
+  }
+  td{
+    padding:1%
+  }
 .profile-child{
   background: #fff;
   width: 30%;
