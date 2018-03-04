@@ -60,10 +60,12 @@ h1.appendChild(document.createElement("HR"));
       ul.classList.add("edu3");
       h3.appendChild(ul);
       for(j in education){
-      var li=document.createElement("li")
+      var li=document.createElement("li");
+      li.style.display="block";
       li.textContent=education[i].data[j];
       ul.appendChild(li);
     }
 
     }
  }
+ console.log(right);
