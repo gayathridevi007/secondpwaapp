@@ -5,5 +5,20 @@
     "photo":"prf.png",
     "email":"gayathriprathi27@gmail.com"
 
-  }
+  },
+  "education":[{
+    "course":"B.Tech(cse):",
+    "college":"GEC",
+    "data":["2015-2019","93%","JNTU-k"]
+  },
+  {
+    "course":"Inter(mpc):",
+    "college":"RK",
+    "data":["2013-2015","95%","Intermediate AP board"]
+  },
+  {
+    "course":"SSC:",
+    "college":"margadarsi",
+    "data":["2012-2013","93%","secondary Education"]
+  }]
 }
